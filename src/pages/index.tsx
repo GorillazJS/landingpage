@@ -37,7 +37,7 @@ const Index = ({ logo }: LandinPageProps) => (
   )
 )
 export const getStaticProps: GetStaticProps = async () => {
-  const landinPage = await client.request(GET_LANDING_PAGE)
+  const { landinPage } = await client.request(GET_LANDING_PAGE)
 
   console.log(landinPage)
   return {
