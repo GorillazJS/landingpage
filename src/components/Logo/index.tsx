@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, LogoProps } from 'types/api'
+import { LogoProps } from 'types/api'
 import { imageUrl } from 'utils/ImageUrl'
 import * as S from './styles'
 

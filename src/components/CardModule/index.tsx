@@ -14,7 +14,6 @@ const CardModule: React.FC<Props> = ({ title, subTitle, children }) => (
       <S.Title>{title}</S.Title>
       <S.SubTitle>{subTitle}</S.SubTitle>
     </S.TitleWrapper>
-
     <S.Content>{children}</S.Content>
   </S.Card>
 )
